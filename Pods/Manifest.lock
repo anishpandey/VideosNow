@@ -1,0 +1,26 @@
+PODS:
+  - JSONModel (1.7.0)
+  - MBCircularProgressBar (0.3.5)
+  - RNActivityView (0.0.6)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TYMProgressBarView (0.3.2)
+
+DEPENDENCIES:
+  - JSONModel
+  - MBCircularProgressBar
+  - RNActivityView
+  - SDWebImage (~> 4.0)
+  - TYMProgressBarView
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  RNActivityView: 889126dc047fc6fa10aac88a13ebff677c53bf82
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TYMProgressBarView: 9f4c54bfd1cde0340f25a8c67e6c3548611f1a8e
+
+PODFILE CHECKSUM: 9e536bdb27c0fed501e6733653ab67f9ba990b0f
+
+COCOAPODS: 1.2.1

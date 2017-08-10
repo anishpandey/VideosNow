@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21253E571B7A6338003F7ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21253E561B7A6338003F7ED6 /* main.m */; };
+		21253E5A1B7A6338003F7ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21253E591B7A6338003F7ED6 /* AppDelegate.m */; };
+		21253E601B7A6338003F7ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21253E5E1B7A6338003F7ED6 /* Main.storyboard */; };
+		21253E621B7A6338003F7ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21253E611B7A6338003F7ED6 /* Images.xcassets */; };
+		21253E651B7A6338003F7ED6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21253E631B7A6338003F7ED6 /* LaunchScreen.xib */; };
+		21253E821B7A8815003F7ED6 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21253E811B7A8815003F7ED6 /* VideosViewController.m */; };
+		21F8C70E1BD02D8900AB5FFE /* VocSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21F8C70B1BD02D5F00AB5FFE /* VocSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79C27BF41F0E53450016A72B /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C27BF31F0E53450016A72B /* VideoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2172A3981BD0075300B06D93 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				21F8C70E1BD02D8900AB5FFE /* VocSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21253E511B7A6338003F7ED6 /* VocSdkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocSdkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21253E551B7A6338003F7ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21253E561B7A6338003F7ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21253E581B7A6338003F7ED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21253E591B7A6338003F7ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21253E5F1B7A6338003F7ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21253E611B7A6338003F7ED6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21253E641B7A6338003F7ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21253E801B7A8815003F7ED6 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		21253E811B7A8815003F7ED6 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		21F8C70B1BD02D5F00AB5FFE /* VocSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VocSdk.framework; sourceTree = SOURCE_ROOT; };
+		79C27BF21F0E53450016A72B /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		79C27BF31F0E53450016A72B /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21253E4E1B7A6338003F7ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21253E481B7A6338003F7ED6 = {
+			isa = PBXGroup;
+			children = (
+				21F8C70B1BD02D5F00AB5FFE /* VocSdk.framework */,
+				21253E531B7A6338003F7ED6 /* VocSdkExample */,
+				21253E521B7A6338003F7ED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21253E521B7A6338003F7ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21253E511B7A6338003F7ED6 /* VocSdkExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21253E531B7A6338003F7ED6 /* VocSdkExample */ = {
+			isa = PBXGroup;
+			children = (
+				21253E581B7A6338003F7ED6 /* AppDelegate.h */,
+				21253E591B7A6338003F7ED6 /* AppDelegate.m */,
+				21253E5E1B7A6338003F7ED6 /* Main.storyboard */,
+				21253E611B7A6338003F7ED6 /* Images.xcassets */,
+				21253E631B7A6338003F7ED6 /* LaunchScreen.xib */,
+				21253E541B7A6338003F7ED6 /* Supporting Files */,
+				21253E801B7A8815003F7ED6 /* VideosViewController.h */,
+				21253E811B7A8815003F7ED6 /* VideosViewController.m */,
+			);
+			path = VocSdkExample;
+			sourceTree = "<group>";
+		};
+		21253E541B7A6338003F7ED6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21253E551B7A6338003F7ED6 /* Info.plist */,
+				21253E561B7A6338003F7ED6 /* main.m */,
+				79C27BF21F0E53450016A72B /* VideoCell.h */,
+				79C27BF31F0E53450016A72B /* VideoCell.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21253E501B7A6338003F7ED6 /* VocSdkExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21253E741B7A6338003F7ED6 /* Build configuration list for PBXNativeTarget "VocSdkExample" */;
+			buildPhases = (
+				21F774971C5C07AC00153011 /* copy_vocsdk */,
+				21253E4D1B7A6338003F7ED6 /* Sources */,
+				21253E4E1B7A6338003F7ED6 /* Frameworks */,
+				21253E4F1B7A6338003F7ED6 /* Resources */,
+				2172A3981BD0075300B06D93 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocSdkExample;
+			productName = VocSdkExample;
+			productReference = 21253E511B7A6338003F7ED6 /* VocSdkExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21253E491B7A6338003F7ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Akamai;
+				TargetAttributes = {
+					21253E501B7A6338003F7ED6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 21253E4C1B7A6338003F7ED6 /* Build configuration list for PBXProject "VocSdkExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21253E481B7A6338003F7ED6;
+			productRefGroup = 21253E521B7A6338003F7ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21253E501B7A6338003F7ED6 /* VocSdkExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21253E4F1B7A6338003F7ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21253E601B7A6338003F7ED6 /* Main.storyboard in Resources */,
+				21253E651B7A6338003F7ED6 /* LaunchScreen.xib in Resources */,
+				21253E621B7A6338003F7ED6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F774971C5C07AC00153011 /* copy_vocsdk */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = copy_vocsdk;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "../../copy_vocsdk.sh \"${PROJECT_DIR}/../..\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21253E4D1B7A6338003F7ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21253E821B7A8815003F7ED6 /* VideosViewController.m in Sources */,
+				79C27BF41F0E53450016A72B /* VideoCell.m in Sources */,
+				21253E5A1B7A6338003F7ED6 /* AppDelegate.m in Sources */,
+				21253E571B7A6338003F7ED6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21253E5E1B7A6338003F7ED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21253E5F1B7A6338003F7ED6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21253E631B7A6338003F7ED6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21253E641B7A6338003F7ED6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21253E721B7A6338003F7ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21253E731B7A6338003F7ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21253E751B7A6338003F7ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)\"",
+				);
+				INFOPLIST_FILE = VocSdkExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akamai.voc.vocsdkexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21253E761B7A6338003F7ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)\"",
+				);
+				INFOPLIST_FILE = VocSdkExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akamai.voc.vocsdkexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21253E4C1B7A6338003F7ED6 /* Build configuration list for PBXProject "VocSdkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21253E721B7A6338003F7ED6 /* Debug */,
+				21253E731B7A6338003F7ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21253E741B7A6338003F7ED6 /* Build configuration list for PBXNativeTarget "VocSdkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21253E751B7A6338003F7ED6 /* Debug */,
+				21253E761B7A6338003F7ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21253E491B7A6338003F7ED6 /* Project object */;
+}

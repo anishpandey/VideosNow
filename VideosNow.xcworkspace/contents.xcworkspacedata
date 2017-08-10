@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Data">
+      <FileRef
+         location = "group:Settings+CoreDataProperties.h">
+      </FileRef>
+      <FileRef
+         location = "group:Settings+CoreDataProperties.m">
+      </FileRef>
+      <FileRef
+         location = "group:Settings+CoreDataClass.h">
+      </FileRef>
+      <FileRef
+         location = "group:Settings+CoreDataClass.m">
+      </FileRef>
+      <FileRef
+         location = "group:Data/Videos+CoreDataClass.h">
+      </FileRef>
+      <FileRef
+         location = "group:Data/Videos+CoreDataClass.m">
+      </FileRef>
+      <FileRef
+         location = "group:Data/Videos+CoreDataProperties.h">
+      </FileRef>
+      <FileRef
+         location = "group:Data/Videos+CoreDataProperties.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:VideosNow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
